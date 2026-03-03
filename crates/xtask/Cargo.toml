@@ -5,4 +5,4 @@ edition = "2024"
 
 [dependencies]
 clap = { version = "4", features = ["derive"] }
-cmd_lib = "1"
+cmd_lib = "2"

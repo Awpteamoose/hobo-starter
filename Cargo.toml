@@ -9,4 +9,4 @@ resolver = "2"
 
 [workspace.dependencies]
 shared = { path = "crates/shared" }
-reqwest = { version = "0.12", features = ["gzip", "brotli", "json", "rustls-tls-native-roots", "cookies"], default-features = false }
+reqwest = { version = "0.13", features = ["gzip", "brotli", "json", "rustls", "cookies"], default-features = false }

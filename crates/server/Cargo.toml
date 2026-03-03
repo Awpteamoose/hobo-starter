@@ -9,10 +9,10 @@ tokio = { version = "1", features = ["full"] }
 serde = { version = "1", features = ["derive"] }
 shared = { workspace = true }
 axum = "0.8"
-swc = "23"
-swc_common = "9"
-swc_ecma_ast = "9"
-minify-html = "0.16"
+swc = "56"
+swc_common = "19"
+swc_ecma_ast = "21"
+minify-html = "0.18"
 pu-239 = "0.2"
 postcard = { version = "1", features = ["use-std"] }
 
